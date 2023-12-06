@@ -1,23 +1,15 @@
-//
-//  ContentView.swift
-//  Landmarks
-//
-//  Created by Valentin Pétré on 01/12/2023.
-//
-
 import SwiftUI
+
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text("Hello SwiftUI!")
+            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+            .fontWeight(.heavy)
+            .foregroundColor(/*@START_MENU_TOKEN@*/.gray/*@END_MENU_TOKEN@*/)
     }
 }
+
 
 #Preview {
     ContentView()
